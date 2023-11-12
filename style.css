@@ -127,7 +127,7 @@ html, body {
 .title-2 {
     margin-bottom: 20px;
 
-    font-size: 40px;
+    font-size: 25px;
     font-weight: 700;
     line-height: 1.3;
     color: #fff;
@@ -255,10 +255,23 @@ html, body {
     color: var(--header-text);
     text-align: center;
 }
+.icons {
+    height: 10vh;
+    /* position: absolute; */
+} 
 
+/* .content-list__item strong {
+    padding-top: 40px;
+    position: absolute;
+} */
 .header__wrapper {
     padding: 0 15px;
     max-width: 660px;
+}
+
+
+.header-wrapper-text {
+    text-shadow: 6px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .header__title {
@@ -266,7 +279,7 @@ html, body {
     font-size: 40px;
     font-weight: 700;
     line-height: 1.4;
-    margin-top: 120px;
+    margin-top: 200px;
 }
 
 .header__title strong {
@@ -396,13 +409,37 @@ html, body {
     color: #FFf;
 }
 
+.img1 {
+    padding-top: 60px;
+}
+
+
+
+.img2 {
+    padding-top: 60px;
+}
+
+.works {
+    background-color: #171718;
+    align-items: center;
+    text-align: center;
+}
+
+
+
 .wait-text img {
     height: 20px;
 
     padding-right: 25px;
 }
 
+.slider {
+    background-color: #171718;
+}
 
+.swiper {
+    height: 10vh;
+}
 
 
 
@@ -751,8 +788,8 @@ html, body {
 }
 
 .title-10 {
-    margin-bottom: 60px;
-    font-size: 40px;
+    margin-bottom: 60px;  
+    font-size: 30px;
     font-weight: 700;
     line-height: 1.3;
     color: #8b8282;
@@ -800,6 +837,7 @@ html, body {
         /* padding-top: 130px; */
     }
 
+
     .header__title {
         font-size: 30px;
     }
@@ -837,7 +875,7 @@ html, body {
 
     .title-2 {
         margin-bottom: 10px;
-        font-size: 30px;
+        font-size: 25px;
     }
 
     /* Projects */
